@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/92d70a2fd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="cart.css" />
+    <title>Website</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <p><i class="fa-solid fa-envelope"></i> apple.inc</p>
+      <p><i class="fa-solid fa-phone"></i> Customer Care</p>
+    </div>
+    <div class="header">
+      <div class="navbar">
+        <a href="https://www.apple.com/in/">
+          <i
+            class="fa fa-apple"
+            style="font-size: 48px; color: rgb(130, 128, 128)"
+          ></i
+        ></a>
+        <!--<p>Amazon</p>
+         <img
+          src="images/apple.png"
+          style="width: 80px; height: 80px; object-fit: cover"
+        />
+        -->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-b">
+        <div class="dropdown">
+          <select name="">
+            <option value="1">Categories</option>
+            <option value="2">Featured</option>
+            <option value="3">Global</option>
+            <option value="4">Local</option>
+          </select>
+        </div>
+        <div class="search">
+          <input type="search" placeholder="Search..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p>0</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="root"></div>
+      <div class="sidebar">Sidebar</div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>
